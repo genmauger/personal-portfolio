@@ -1,0 +1,8 @@
+.container-nav {
+    display: flex;
+}
+
+.nav-menu {
+    flex-direction: row;
+    background: #aaa;
+}
