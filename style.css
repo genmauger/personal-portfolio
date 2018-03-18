@@ -1,15 +1,24 @@
 /*Total container for nav and div*/
+/*Display different for each browser - change display: -webkit-box*/
 .total-container {
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: row;
 }
 
 /*Nav menu*/
 .container-nav {
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: column;
-    width: 30%;
-    background: #aaf;
+    background: #CDEDEB;
+    width: 25%;
 }
 
 .logo {
@@ -17,7 +26,7 @@
 }
 
 .nav-menu {
-    background: #aaa;
+    
     
 }
 
@@ -32,9 +41,17 @@
 /*Content*/
 .content-container {
     display: flex;
-    background: #66ff66
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    background: #E4C6BD;
+    width: 75%;
 }
 
 .content-container > div {
-    width: 100%;
+    margin: 20%;
+    text-align: center;
+    justify-content: center;
+    line-height: 250%;
 }

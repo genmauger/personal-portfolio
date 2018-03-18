@@ -1,5 +1,14 @@
 # Personal Portfolio Project
 
+## Problem
+
+In completing this project, I hoped to solve a few problems:
+- As a junior developer, how do I make my presence known to potential clients and employers?
+- How do I present my website in a way that is succinct and to the point? Websites are evaluated quickly, information should be presented in a way that is easy to evaluate and consume.
+- How do I want to be viewed by my audience? What is the best way to market myself to potential clients to achieve this?
+
+## Minimal Viable Product
+
 ## Research
 
 The initial stages of this project involved a large amount of research. My first step was to think of color themes that would provide inspiration for my color palette. I had a few ideas for this, ranging from the landscape I was surrounded by growing up, calming pastel colors, and bright hues found in city street art. The themes I considered included:
@@ -7,7 +16,7 @@ The initial stages of this project involved a large amount of research. My first
 - Country landscape
 - Inner city/urban areas (greys mixed with bright, vibrant colors)
 - Gardens - both green and drought-resistant (the pastel colors on various cacti provided some great inspiration)
-- Minimalist building designs, good use of negative space
+- Minimalist building designs, good use of white space
 
 
 
