@@ -1,7 +1,19 @@
+/*Total container for nav and div*/
+.total-container {
+    display: flex;
+    justify-content: row;
+}
+
+/*Nav menu*/
 .container-nav {
     display: flex;
     flex-direction: column;
     width: 30%;
+    background: #aaf;
+}
+
+.logo {
+    margin: 25%;
 }
 
 .nav-menu {
@@ -9,6 +21,20 @@
     
 }
 
+.nav-menu > li {
+    margin: 15%;
+}
+
 .social-media-icons {
     
+}
+
+/*Content*/
+.content-container {
+    display: flex;
+    background: #66ff66
+}
+
+.content-container > div {
+    width: 100%;
 }
