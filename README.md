@@ -9,9 +9,13 @@ In completing this project, I hoped to solve a few problems:
 
 ## Minimal Viable Product
 
+The MVP for this product would be to at least create a static website that closely resembles my final design in Figma. Beyond that, I will be using flexbox to add responsiveness to my website, and to make all content easily viewable on phone, desktop, and tablet. Finally, I will be using some transitions and keyframes to make my website feel more interactive and dynamic. 
+
 ## Research
 
-The initial stages of this project involved a large amount of research. My first step was to think of color themes that would provide inspiration for my color palette. I had a few ideas for this, ranging from the landscape I was surrounded by growing up, calming pastel colors, and bright hues found in city street art. The themes I considered included:
+Research and planning were easily the most important parts of this project for me. Once I had completed both a decided on my final design, coding my website was (besides a couple minor hitches), a fairly straightforward process. 
+
+The first step in my research was to think of themes that would provide inspiration for my color palette. I had a few ideas for this, ranging from the landscape I was surrounded by growing up, calming pastel colors, and bright hues found in city street art. The themes I considered included:
 
 - Country landscape
 - Inner city/urban areas (greys mixed with bright, vibrant colors)
