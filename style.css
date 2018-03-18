@@ -1,8 +1,14 @@
 .container-nav {
     display: flex;
+    flex-direction: column;
+    width: 30%;
 }
 
 .nav-menu {
-    flex-direction: row;
     background: #aaa;
+    
+}
+
+.social-media-icons {
+    
 }
