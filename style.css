@@ -4,14 +4,6 @@ body {
 
 /*Total container for nav and div*/
 /*Display different for each browser - change display: -webkit-box*/
-.total-container {
-    display: flex;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    justify-content: row;
-}
 
 @media only screen and (max-width: 765px) { 
     .total-container {
@@ -24,6 +16,15 @@ body {
     }
 }
 
+.total-container {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: row;
+}
+
 /*Nav menu*/
 .container-nav {
     display: flex;
@@ -34,6 +35,7 @@ body {
     flex-direction: column;
     background: #CDEDEB;
     width: 25%;
+    height: 100vh;
 }
 
 @media only screen and (max-width: 765px) {
@@ -46,11 +48,13 @@ body {
         flex-direction: row;
         background: #CDEDEB;
         width: 100%;
+        height: 10vh;
+        position: fixed;
     }
 }
 
 .logo {
-    margin: 25%;
+    margin: 10%;
 }
 
 .nav-menu {
@@ -88,7 +92,6 @@ body {
         width: 100%;
     }
 }
-
 
 .content-container > div {
     margin: 20%;
