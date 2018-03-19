@@ -2,6 +2,9 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
 /*Total container for nav and div*/
 /*Display different for each browser - change display: -webkit-box*/
 
@@ -11,6 +14,7 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     flex-wrap: wrap;
+    background: linear-gradient(#E4C6BD, #EDEDED);
 }
 
 /*Nav menu*/
@@ -33,6 +37,7 @@ body {
     overflow: hidden;
     height: 28vh;
     align-items: center;
+    padding-bottom: 10%;
 }
 
 .nav-menu {
@@ -40,46 +45,77 @@ body {
     flex-direction: column;
 }
 
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media > img {
+    width: 15%;
+}
+
 .nav-menu > div {
     padding: 5%;
     font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
 }
 
-/*Content*/
-.content-container {
+/*Main content*/
+.main-container {
     display: flex;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    background: linear-gradient(#E4C6BD, #EDEDED);
+    /* background: linear-gradient(#E4C6BD, #EDEDED); */
+    height: 100vh;
     width: 75vw;
     margin-left: 25vw;
 }
 
-.content-container > div {
+.main-container > div {
     margin: 20%;
     text-align: center;
     justify-content: center;
     line-height: 250%;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.25em;
 }
 
+/*Portfolio*/
+.portfolio-container {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    width: 75vw;
+    margin-left: 25vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.portfolio-container > div {
+    margin: 20%;
+    text-align: right;
+    justify-content: center;
+    line-height: 250%;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.25em;
+}
 
 /*Collapse content to mobile responsiveness*/ 
 @media only screen and (max-width: 765px) {
-    .content-container {
-        display: flex;
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
+    .total-container {
         background: linear-gradient(#E4C6BD, #C5EBE8);
+    }
+    .main-container {
         width: 100%;
         margin-left: 0vw;
     }
     .container-nav {
         width: 100vw;
-        height: 5vh;
+        height: 8vh;
         position: fixed;
     }
     .nav-menu {
@@ -89,7 +125,15 @@ body {
     }
     .nav-menu > div {
         font-size: 1em;
-
+    }
+    .portfolio-container {
+        width: 100%;
+        margin-left: 0vw;
+        /* flex-wrap: wrap; */
+    }
+    .portfolio-container > div {
+        text-align: center;
+        width: 100vw;
     }
     .logo {
         padding: 0%;
@@ -97,4 +141,5 @@ body {
         width: 0vw;
     }
 }
+
 
