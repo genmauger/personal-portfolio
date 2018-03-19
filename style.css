@@ -28,6 +28,10 @@ body {
     height: 100vh;
 }
 
+.logo {
+    padding: 10%;
+}
+
 .nav-menu {
     display: flex;
     flex-direction: column;
@@ -67,6 +71,12 @@ body {
     }
     .nav-menu {
         flex-direction: row;
+        padding: 0;
+    }
+    .logo {
+        padding: 0;
+        height: 0;
+        width: 0;
     }
 }
 
