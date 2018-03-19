@@ -23,6 +23,9 @@ body {
     flex-direction: column;
     background: #CDEDEB;
     width: 25%;
+    /*Fixed horizontal div*/
+    position: fixed;
+    height: 100vh;
 }
 
 .nav-menu {
@@ -31,7 +34,7 @@ body {
 }
 
 .nav-menu > div {
-    padding: 10%;
+    padding: 5%;
 }
 
 /*Content*/
@@ -42,7 +45,8 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     background: linear-gradient(#E4C6BD, #EDEDED);
-    width: 75%;
+    width: 75vw;
+    margin-left: 25vw;
 }
 
 @media only screen and (max-width: 765px) {
@@ -54,9 +58,12 @@ body {
         display: -webkit-flex;
         background: linear-gradient(#E4C6BD, #C5EBE8);
         width: 100%;
+        margin-left: 0vw;
     }
     .container-nav {
         width: 100vh;
+        height: 10vh;
+        position: fixed;
     }
     .nav-menu {
         flex-direction: row;

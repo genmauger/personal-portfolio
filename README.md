@@ -56,3 +56,4 @@ Began to design html structure of page - very bare bones layout, just placing el
 
 Problem - svg image won't load
 Issue - adding media breakpoints
+ - Worked finally, only way that seemed to work for flexbox resizing the menu from horizontal to vertical
