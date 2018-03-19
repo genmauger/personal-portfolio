@@ -20,28 +20,18 @@ body {
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     background: #CDEDEB;
     width: 25%;
 }
 
-
-.logo {
-    margin: 10%;
-    flex-shrink: 3;
-}
-
 .nav-menu {
     display: flex;
+    flex-direction: column;
 }
 
 .nav-menu > div {
-    margin: 10%;
-    justify-content: row;
-}
-
-.social-media-icons {
-    
+    padding: 10%;
 }
 
 /*Content*/
@@ -64,6 +54,12 @@ body {
         display: -webkit-flex;
         background: linear-gradient(#E4C6BD, #C5EBE8);
         width: 100%;
+    }
+    .container-nav {
+        width: 100vh;
+    }
+    .nav-menu {
+        flex-direction: row;
     }
 }
 
