@@ -52,4 +52,7 @@ Logo
 Outline MVP
 
 Began to design html structure of page - very bare bones layout, just placing elements on page making sure they're responsive etc
+
+
 Problem - svg image won't load
+Issue - adding media breakpoints
