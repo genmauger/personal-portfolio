@@ -120,11 +120,30 @@ h2 {
     text-align: right;
 }
 
-.grid {
+.skills-container {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    width: 75vw;
+    margin-left: 25vw;
+    height: 100vh;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.grid-flex {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 50vw;
+    background: coral;
+    justify-items: end;
+}
+
+.grid-flex > img {
+    /* width: 30px;
+    height: 30px; */
 }
 
 /*Collapse content to mobile responsiveness*/ 
