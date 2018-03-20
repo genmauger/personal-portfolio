@@ -111,7 +111,8 @@ h2 {
 .fancy-hank {
     max-width: 45%;
     max-height: 30%;
-    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .skills-heading {
@@ -133,26 +134,38 @@ h2 {
     padding: 5%;
 }
 
-.grid-flex {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-items: center;
+.skills-text {
+    text-align: left;
+    /* justify-content: center; */
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    margin-left: 33vw;
 }
 
-.first-row {
-    grid-column: 6/9;
-    grid-row: 1/2;
+.skills-text > div {
+    line-height: 1.5em;
+    line-height: 250%;
 }
 
-.second-row {
-    grid-column: 6/9;
-    grid-row: 2/3;
+.form-container {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    /* background: linear-gradient(#E4C6BD, #EDEDED); */
+    height: 100vh;
+    width: 75vw;
+    margin-left: 25vw;
 }
 
-.third-row {
-    grid-column: 6/9;
-    grid-row: 3/4;
+.form-container > div {
+    margin: 20%;
+    text-align: center;
+    justify-content: center;
+    line-height: 250%;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
 }
 
 /*Collapse content to mobile responsiveness*/ 
@@ -165,7 +178,8 @@ h2 {
         margin-left: 0vw;
     }
     .main-container > div {
-        font-size: 1em;
+        font-size: 1.5em;
+        line-height: 100%;
     }
     .container-nav {
         width: 100vw;
@@ -178,33 +192,48 @@ h2 {
         background: #E4C6BD;
     }
     .nav-menu > div {
-        font-size: 1em;
+        font-size: 1.25em;
     }
     .portfolio-heading {
-        text-align: center;
+        text-align: left;
     }
     .portfolio-container {
         width: 100%;
         margin-left: 0vw;
-        align-items: center;
     }
     .portfolio-container > div {
-        text-align: center;
         font-size: 1.5em;
         text-align: right;
-        padding-right: 10%;
+        padding-right: 0%;
+        line-height: 100%;
     }
     .fancy-hank {
-
+        justify-content: center;
+        max-width: 80vw;
+        margin-left: 20vw;
+        /* max-height: 30%; */
     }
     .logo {
         padding: 0%;
         height: 0vh;
         width: 0vw;
     }
+    .skills-container {
+        width: 100vw;
+        margin-left: 0vw;
+        flex-direction: column;
+        padding: 0%;
+    }
     .skills-heading {
         text-align: center;
     }
+    .skills-text {
+        text-align: left;
+        font-size: 1.5em;
+        margin-left: 5vw;
+        line-height: 100%;
+        height: 100vh;
+    }
 }
 
-
+/*README.md, netlify, resume*/
