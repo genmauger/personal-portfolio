@@ -100,7 +100,7 @@ h2 {
 }
 
 .portfolio-container > div {
-    text-align: right;
+    text-align: left;
     /* justify-content: center; */
     line-height: 250%;
     font-family: 'Poiret One', cursive;
@@ -115,6 +115,7 @@ h2 {
     padding-bottom: 10%;
 }
 
+/*Skills heading*/
 .skills-heading {
     font-family: 'Open Sans', sans-serif;
     padding-top: 5%;
@@ -135,37 +136,48 @@ h2 {
 }
 
 .skills-text {
-    text-align: left;
+    text-align: right;
     /* justify-content: center; */
     font-family: 'Poiret One', cursive;
     font-size: 1.5em;
     margin-left: 33vw;
-}
-
-.skills-text > div {
-    line-height: 1.5em;
     line-height: 250%;
 }
 
+.skills-text > div {
+    line-height: 250%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+    line-height: 150%;
+}
+
+/*Contact form*/
 .form-container {
     display: flex;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    /* background: linear-gradient(#E4C6BD, #EDEDED); */
+    flex-direction: column;
     height: 100vh;
     width: 75vw;
     margin-left: 25vw;
+    align-items: center;
 }
 
-.form-container > div {
-    margin: 20%;
-    text-align: center;
-    justify-content: center;
-    line-height: 250%;
+.form-heading {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5%;
+}
+
+.contact-form {
     font-family: 'Poiret One', cursive;
     font-size: 1.5em;
+}
+
+.contact-form-size {
+    width: 50vw;
+    border-radius: 5%;
 }
 
 /*Collapse content to mobile responsiveness*/ 

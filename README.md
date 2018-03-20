@@ -1,5 +1,7 @@
 # Personal Portfolio Project
 
+The link to my portfolio website may be found at the following link: https://genmauger.netlify.com/
+
 ## Problem
 
 In completing this project, I hoped to solve a few problems:
@@ -22,12 +24,12 @@ The first step in my research was to think of themes that would provide inspirat
 - Gardens - both green and drought-resistant (the pastel colors on various cacti provided some great inspiration)
 - Minimalist building designs, good use of white space
 
-
-
 The tools I used for this stage included:
 
 Pinterest:
-    In my opinion, an essential tool for generating inspiration for designs
+I ended up making several Pinterest boards that I could draw inspiration from. I also created boards for different font families, and a Pinterest board solely for logo design. Below is a link to some of the pictures I was drawing inspiration from:
+
+Pastels: 
 
 
 - Tried pastels - aqua and pinky-brown
