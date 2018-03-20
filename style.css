@@ -2,11 +2,9 @@ body {
     margin: 0;
 }
 
-h1 {
+h2 {
     font-family: 'Open Sans', sans-serif;
 }
-/*Total container for nav and div*/
-/*Display different for each browser - change display: -webkit-box*/
 
 .total-container {
     display: -webkit-box;
@@ -83,6 +81,11 @@ h1 {
 }
 
 /*Portfolio*/
+.portfolio-heading {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5%;
+}
+
 .portfolio-container {
     display: flex;
     display: -webkit-box;
@@ -93,15 +96,17 @@ h1 {
     margin-left: 25vw;
     height: 100vh;
     flex-direction: column;
+    padding: 5%;
 }
 
 .portfolio-container > div {
-    margin: 20%;
+    margin-top: 20%;
     text-align: right;
-    justify-content: center;
+    /* justify-content: center; */
     line-height: 250%;
     font-family: 'Poiret One', cursive;
     font-size: 1.25em;
+    padding-right: 10%;
 }
 
 /*Collapse content to mobile responsiveness*/ 
@@ -112,6 +117,9 @@ h1 {
     .main-container {
         width: 100%;
         margin-left: 0vw;
+    }
+    .main-container > div {
+        font-size: 1em;
     }
     .container-nav {
         width: 100vw;
@@ -126,20 +134,24 @@ h1 {
     .nav-menu > div {
         font-size: 1em;
     }
+    .portfolio-heading {
+        text-align: center;
+    }
     .portfolio-container {
         width: 100%;
         margin-left: 0vw;
-        /* flex-wrap: wrap; */
     }
     .portfolio-container > div {
         text-align: center;
-        width: 100vw;
+        font-size: 1em;
+        text-align: right;
     }
     .logo {
         padding: 0%;
         height: 0vh;
         width: 0vw;
     }
+
 }
 
 
