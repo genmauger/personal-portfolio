@@ -48,8 +48,16 @@ h2 {
     justify-content: space-around;
 }
 
-.social-media > img {
-    width: 15%;
+.social-media > a > img {
+    width: 5vw;
+    display: flex;
+    height: 28vh;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.social-media > a > img:hover {
+    color: #8FD8D9;
 }
 
 .nav-menu-styling {
@@ -201,7 +209,7 @@ h2 {
 }
 
 .send-button:hover {
-    background-color: blue;
+    color: #8FD8D9;
 }
 
 .resume-container {
@@ -294,6 +302,13 @@ h2 {
         padding: 0%;
         height: 0vh;
         width: 0vw;
+    }
+    .social-media > a > img {
+        width: 0vw;
+        display: flex;
+        height: 0vh;
+        align-items: center;
+        padding-bottom: 0%;
     }
     .skills-container {
         width: 100vw;
