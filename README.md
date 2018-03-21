@@ -6,7 +6,7 @@ The link to my portfolio website may be found at the following link: https://gen
 
 1. Problem
 2. MVP
-3. Colors/inspirations
+3. Research
 4. Pinterest/Mood board
 5. Figma
 6. Coding  
@@ -107,6 +107,15 @@ My main concern with these colors was that they were just too soft. I was concer
 ![](2018-03-21-00-43-03.png)
 
 I really liked both these designs. I intended to keep the design fairly simple. This was partly because I was working to a deadline, and wanted to make sure I could deliver on MVP, and partly because, I was a fan of simple, minimalist designs. I was also happy to use a darker version of the pink/brown I had chosen earlier. I felt this gave my design a bit more strength. 
+
+The final colors I chose were:
+
+Blue: #8FD8D9
+
+Pink/Brown: #FEDCD2
+
+Neutral white: #EFEEEE
+
 
 I felt that just using blue and brown as static colors could be a little boring for the user, so I introduce a gradually ligtening gradient on the desktop site. On my mobile site, I had the vertical nav, transform into a brown top nav. To add a little more texture to the mobile site, I also used a gradient, however, this gradient moved through my chosen colors, brown, neutral white, and blue. 
 
