@@ -37,6 +37,8 @@ The first step in my research was to think of themes that would provide inspirat
 
 ## 4. Pinterest/Mood Boards
 
+My complete Figma inspiration board can be found here : https://www.figma.com/file/UfOKBrsAuQqowNzncKaPjiUz/Portfolio-Design-%231 
+
 I found Pinterest to be an incredibly useful tool in generating visual inspiration for my website. I ended up making several Pinterest boards that I could draw inspiration from. I found being able to easily view groups of images side by side, and extract similar colors, a very helpful process. I also created a board for different font families, and a Pinterest board solely for logo design. Below is a link to some of the pictures I was drawing inspiration from:
 
 Pastels: 
