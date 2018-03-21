@@ -275,11 +275,6 @@ h2 {
     color: #777777;
 }
 
-.resume-link:hover {
-    color: #8FD8D9;
-}
-
-
 /*Collapse content to mobile responsiveness*/ 
 @media only screen and (max-width: 765px) {
     .total-container {
