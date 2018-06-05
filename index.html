@@ -8,135 +8,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
-<div class="total-container">
+    <div class="background">
 
-    <!--Nav bar-->
-    <div class="container-nav">
-        <!--Logo-->
-        <img class="logo" src="assets/images/logo.svg" alt="Logo with writing Gen in a blue circle">
-        <!--Menu options-->
-        <div class="nav-menu">
-            <a href="#about" class="nav-menu-styling">About</a>
-            <a href="#portfolio" class="nav-menu-styling">Portfolio</a>
-            <a href="#skills" class="nav-menu-styling">Skills</a>
-            <a href="#contact" class="nav-menu-styling">Contact</a>
+    <nav class="flex-container">
+        <div><img src="/assets/images/logo.svg" class="logo" alt="Black sursive text on aqua beackground that says 'Gen'"></div>
+        <div>Portfolio</div>
+        <div>Skills</div>
+        <div>Contact</div>  
+    </nav>
+
+    <main>
+        <div class="about">
+            <p>Welcome! My name is Genevieve.
+            I am a junior developer currently specialising in html, css and ruby.
+            Please take a look around, check out my portfolio,
+            follow me on social media or feel free to contact me.</p> 
         </div>
+    </main>
 
-        <div class="social-media">
-            <a href="https://codepen.io/genmauger/"><img src="assets/images/codepen.svg" alt="logo for codepen"></a>
-            <a href="https://github.com/genmauger"><img src="assets/images/github.svg" alt="logo for github"></a>
-            <a href="https://www.linkedin.com/in/genevieve-mauger-37220380/"><img  src="assets/images/linkedin.svg" alt="logo for linkedin"></a>
-        </div>
-        
-    </div>
+    <h1 class="info-heading">Portfolio</h1>
 
-    <div id="about" class="main-container">
-        <div>
-                Welcome! My name is Genevieve. I am currently studying web development in a Melbourne-based bootcamp. 
+    <br>
+    <br>
+    <br>
 
-                I have a background in finance, and content creation. I am now studying to become a full-stack developer.
-                
-                I love creating clean and efficient web applications.
-                
-                My skillset currently includes html5, css3 and ruby.
-                
-                Please take a look around, check out my portfolio, follow me on social media or feel free to contact me. 
-                
-        </div>
-    </div>
+    <div class="portfolio">
 
-    <div id="portfolio" class="portfolio-container">
-
-        <!-- <h1>Portfolio</h1> -->
-        <!--Make all in div and column-->
-
-        <h1 class="portfolio-heading">Portfolio</h1>
-
-        <h2>Terminal App</h2>
-
-        <img class="fancy-hank" src="assets/images/fancy-hank.png" alt="Image of terminal app">
-
-        <div>
-                A terminal app designed to act as a cookbook. Users can view recipes get suggestions based on temperature, and generate a random recipe
- 
-        </div>
-    </div>
-
-    <div id="skills" class="skills-container">
-    
-        <h1 class="skills-heading">Skills</h1>
-    
-        <div class="skills-text">
-                Looking to develop your web application? 
-                I can build what you need using the following languages:
-
-            <div class="skills-grid">
-                <div class="row1">
-                    <div>html5</div>
-                    <div>css3</div>
-                    <div></div>
-                </div>
-                <div class="row2">
-                    <div>angularJS</div>
-                    <div>nodeJS</div>
-                    <div>javascript</div>
-                </div>
-                <div class="row3">
-                    <div>rails</div>
-                    <div>reactJS</div>
-                </div>
+        <div class="portfolio-project">
+            <div>
+                <p class="portfolio-heading">Fancy Hank</p>
+                <br>
+                <img src="/assets/images/fancy-hank.png" alt="">
+                <p>
+                    A terminal app designed to act as a cookbook. 
+                    Users can view recipes, get suggestions 
+                    based on temperature, and generate
+                    a random recipe
+                </p>
             </div>
 
-        </div>
+            <br>
+            <br>
 
+            <div>
+                <p class="portfolio-heading">Store Next Door</p>
+                <br>
+                <img src="/assets/images/fancy-hank.png" alt="">
+                <p>
+                    A terminal app designed to act as a cookbook. 
+                    Users can view recipes, get suggestions 
+                    based on temperature, and generate
+                    a random recipe
+                </p>
+            </div>
+        </div>
     </div>
 
-    <div class="resume-container">
+    <h1 class="info-heading">Skills</h1>
+    <br>
+    <br>
+    <br>
 
-        <!-- <h1>Portfolio</h1> -->
-        <!--Make all in div and column-->
-
-        <h1 class="resume-heading">Resume</h1>        
-
-        <div>
-                Click the link below to download my resume
-        </div>
-    
-      <a href="assets/images/logo.svg" class="resume-link" download>Download</a>
-
-    </div>
-
-    <div id="contact" class="form-container">
-
-            <h1 class="form-heading">Contact</h1>
-            
-            <div class="form-text">Thanks for checking out my wesbite. Get in touch and let's start a conversation</div>
-
-            <form class="contact-form" name="contact" method="POST" netlify>
-                <p>
-                    <input class="contact-form-styling" type="text" name="name" placeholder="Name">  
-                </p>
-                <p>
-                    <input class="contact-form-styling" type="email" name="email" placeholder="Email">
-                </p>
-                <p>
-                    <textarea class="contact-form-styling" name="message" placeholder="Message"></textarea>
-                </p>
-                <p>
-                    <button class="send-button" type="submit">Send</button>
-                </p>
-            </form>
-
+    <div class="skills">
+            <img src="/assets/images/skills/HTML5_logo.svg" class="skills" alt="html5 logo">
+            <img src="/assets/images/skills/CSS3_logo.svg" class="skills" alt="css 3 logo">
+            <img src="/assets/images/skills/Ruby_logo.svg" class="skills" alt="ruby logo">
+            <img src="/assets/images/skills/Ruby_on_Rails_logo.svg" class="skills" alt="ruby on rails logo">
+            <img src="/assets/images/skills/javascript_logo.svg" class="skills" alt="javascript logo">
+            <img src="/assets/images/skills/Node_js_logo.svg" class="skills" alt="nodejs logo">
+            <img src="/assets/images/skills/Angular_js_logo.svg" class="skills" alt="angualar logo">
     </div>
 
 </div>
     
+
 </body>
 </html>
 
