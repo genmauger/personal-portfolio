@@ -14,13 +14,16 @@ nav {
     display: -webkit-flex;
     justify-content: space-around;
     background-color: #E4C6BD;
+    width: 100vw;
+    /*Fixed horizontal div*/
+    position: fixed;
   }
   
 nav > div {
     font-size: 2.5em;
     margin-top: .2em;
     margin-bottom: .2em;
-    padding: 1em;
+    padding: .5em;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -28,7 +31,7 @@ nav > div {
     position: absolute;
     top: .5em;
     left: .5em;
-    width: 5.25em;
+    width: 5em;
 }
 
 .about {
@@ -36,10 +39,10 @@ nav > div {
     justify-content: center;
     font-family: 'Poiret One', cursive;
     font-size: 2em;
-    padding-top: 6em;
-    padding-left: 12em;
-    padding-right: 12em;
-    padding-bottom: 7em;
+    padding-top: 40vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 35vh;
     line-height: 2;
 }
 
@@ -47,6 +50,10 @@ nav > div {
     font-size: 3em;
     font-family: 'Roboto', sans-serif;
     text-align: center;  
+}
+
+.portfolio-heading {
+    font-family: 'Roboto', sans-serif;
 }
 
 .portfolio {
@@ -58,27 +65,48 @@ nav > div {
 }
 
 .portfolio > div {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 10vw;
+    padding-right: 10vw;
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-size: 2em;
     margin: 2em;
 }
 
-.portfolio-heading {
-    font-family: 'Roboto', sans-serif;
-    
-}
-
 .skills {
     display: flexbox;
     justify-content: center; 
     flex-direction: row;
-    padding-left: 14%;
+    padding-left: 15vw;
 }
 
 .skills > img {
     width: 8em;
     padding: 6em;
+}
+
+
+/* Contact form */ 
+.form-text {
+    font-size: 2em;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form-styling {
+    font-size: 2em;
+    margin: .5em;
+    font-family: 'Poiret One', cursive;
+    border: 0px;
+}
+
+.send-button {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
 }
