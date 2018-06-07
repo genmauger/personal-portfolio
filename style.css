@@ -20,10 +20,10 @@ nav {
   }
   
 nav > div {
-    font-size: 2.5em;
-    margin-top: .2em;
-    margin-bottom: .2em;
-    padding: .5em;
+    font-size: 3vw;
+    margin-top: .5vh;
+    margin-bottom: .5vh;
+    padding: 4vh;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -42,7 +42,7 @@ nav > div {
     padding-top: 40vh;
     padding-left: 20vw;
     padding-right: 20vw;
-    padding-bottom: 35vh;
+    padding-bottom: 30vh;
     line-height: 2;
 }
 
@@ -61,7 +61,7 @@ nav > div {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
-    padding-bottom: 7em;
+    padding-bottom: 7vh;
 }
 
 .portfolio > div {
@@ -71,6 +71,10 @@ nav > div {
     font-family: 'Poiret One', cursive;
     font-size: 2em;
     margin: 2em;
+}
+
+.portfolio-image {
+    width: 55vw;
 }
 
 .skills {
